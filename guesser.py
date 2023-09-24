@@ -3,6 +3,14 @@ import sqlite3
 score = 0
 party = ""
 
+instructions = "Thank you so much for being willing to take this survey! Below are some FAQ's: \n* No, your name, email, or identity will not be associated with your answers. \n* The survey results are being used for a class project and will not be shared with any wider of an audience. \n* With any further questions please contact Rachael Harris, Morgan Douglas, Andy Strozewski, or Tyson Lindley.\n\nINSTRUCTIONS: please type 'yes' or 'no' as an answer to each question, until you will be asked for a ranking, then please use the numbers 1-5."
+
+print(instructions)
+
+print("\n\n\n")
+
+time.sleep(3)
+
 q1 = input("Are you Black, Hispanic, or Asian?\t")
 if q1 == "yes":
     score = 64
