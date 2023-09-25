@@ -388,7 +388,7 @@ if score < 0:
     
 time.sleep(1.5)
 
-survey = input("\n\nDo you feel as though our guess is correct? ('yes' or 'no')\t")
+guessChecker = input("\n\nDo you feel as though our guess is correct? ('yes' or 'no')\t")
 
 time.sleep(1.5)
     
@@ -397,6 +397,6 @@ postResponse = input("\n\nNow knowing the results, how intrusive did you feel as
 
 
 datafile = open("results.txt", "a")
-written = str("\n" + str(score) +  "," + party + "," + survey + "," + str(initialResponse) + "," + str(postResponse))
+written = str("\n" + str(score) +  "," + party + "," + guessChecker + "," + survey + "," + str(initialResponse) + "," + str(postResponse))
 datafile.write(written)
 datafile.close()
