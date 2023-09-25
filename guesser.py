@@ -396,7 +396,7 @@ time.sleep(1.5)
 postResponse = input("\n\nNow knowing the results, how intrusive did you feel as though the survey was on a scale of 1-5? (1 being the least intrusive, 5 being the most)\t")
 
 
-datafile = open("results.txt", "a")
+datafile = open("results.csv", "a")
 written = str("\n" + str(score) +  "," + party + "," + guessChecker + "," + survey + "," + str(initialResponse) + "," + str(postResponse))
 datafile.write(written)
 datafile.close()
