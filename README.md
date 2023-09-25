@@ -33,6 +33,11 @@ To use this program
 - A: The results are intended to be used as part of a class project to demonstrate how seemingly unrelated information can be used to generate profiles about individuals. 
 
 
+## For the class group:
+- Clone the repository to your local machine
+- Record answers in your local `results.csv`
+- After surveying students, open the `results.csv` in Excel, and then copy and paste into our shared Google Sheets for analysis
+
 ## Contact
 For any inquiries, please contact:
  - Rachael Harris (rharris2@andrew.cmu.edu)
